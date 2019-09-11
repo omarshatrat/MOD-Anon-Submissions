@@ -3,8 +3,8 @@ library(digest)
 library(shinyjs)
 library(googledrive)
 
-#drive_auth_config(api_key = 'AIzaSyCrZX-K53aXxgETZkEXwwArseQSyHA6vbs')
-#drive_auth(reset = TRUE, service_token = 'xb-anonymous-s-4f14bc8cd822.json')
+#drive_auth_config(api_key = ######)
+#drive_auth(reset = TRUE, service_token = ######)
 #drive_auth(reset = TRUE, cache = TRUE)
 drive_auth(reset = TRUE, 'ttt.rds')
 
