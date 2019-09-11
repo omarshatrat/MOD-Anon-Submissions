@@ -18,7 +18,7 @@ drive_auth(reset = TRUE, 'ttt.rds')
   server <- function(input, output, session) {
     # defines how to save the data in the form
     upload <- function() {
-m
+
       upload_name <- paste0(
           #input$week,
           #'/',
